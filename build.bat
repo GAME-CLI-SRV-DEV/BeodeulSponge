@@ -1,0 +1,3 @@
+git apply
+gradlew build
+
