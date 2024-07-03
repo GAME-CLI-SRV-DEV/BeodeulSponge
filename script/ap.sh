@@ -62,6 +62,6 @@ fi
 
 
 # Apply patches
-applyPatch Sponge BeodeulSponge HEAD
+applyPatch SpongeAPI BeodeulSpongeAPI HEAD
 
 enableCommitSigningIfNeeded
