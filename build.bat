@@ -63,7 +63,7 @@ if "!gpgsign!"=="true" (
 )
 
 REM Apply patches for BungeeCord
-call :applyPatch SpongeAPI BeodeulSpongeAPI HEAD
+call :applyPatch Sponge BeodeulSponge HEAD
 
 REM Enable commit signing if needed
 call :enableCommitSigningIfNeeded
