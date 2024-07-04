@@ -46,9 +46,7 @@ git am --abort > NUL
 git am --3way --ignore-whitespace "%basedir%\!what_name!-Patches\*.patch"
 if errorlevel 1 (
     echo Something did not apply cleanly to !target!.
-    echo Please review the details above and finish the apply, then
-    echo save the changes with rebuildPatches.bat
-    call :enableCommitSigningIfNeeded
+    echo Please review the details above and finish the apply.
     exit /b 1
 ) else (
     echo Patches applied cleanly to !target!
@@ -66,7 +64,6 @@ REM Apply patches for BungeeCord
 call :applyPatch SpongeAPI BeodeulSpongeAPI HEAD
 call :applyPatch Vanilla Bukkit HEAD
 call :applyPatch Forge NeoForge HEAD
-call :applyPatch 
 REM Enable commit signing if needed
 call :enableCommitSigningIfNeeded
 exit /b
