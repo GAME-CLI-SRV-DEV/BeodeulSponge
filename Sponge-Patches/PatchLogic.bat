@@ -64,7 +64,9 @@ if "!gpgsign!"=="true" (
 
 REM Apply patches for BungeeCord
 call :applyPatch SpongeAPI BeodeulSpongeAPI HEAD
-
+call :applyPatch Vanilla Bukkit HEAD
+call :applyPatch Forge NeoForge HEAD
+call :applyPatch 
 REM Enable commit signing if needed
 call :enableCommitSigningIfNeeded
 exit /b
