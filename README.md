@@ -7,16 +7,10 @@ so it split up into NogyangSpigot <-> BeodeulSponge & also i was crap at making 
 but now the time has come. we will unite the Minecraft Community Once and For all!
 > NogyangSpigot-BeodeulSponge-MultiNet Head Developer CensingSmile123/Outfit8TSB
 > 
-# ALERT!
-Geyser-Sponge, the library to develop the BeodeulSponge Has Been Deprecated and Removed in future geyser versions.
-The Following Code Snippet has been removed due to the [Pull Request That Removes Sponge Plugin Version of Geyser](https://github.com/GeyserMC/Geyser/pull/4097):
-```
-compileonly("org.geysermc.geyser:api:2.2.3-SNAPSHOT")
-```
-Replaced with 
-```
-Implementation("org.geysermc.geyser:core:2.3.1-SNAPSHOT")
-Implementation("org.geysermc.floodgate:core:2.2.3-SNAPSHOT")
-```
-this version of the plugin will use the GeyserMC. the plugin only belongs to this Server Repository.
-this version also uses gradle.
+to use BeodeulSponge you Must Build it yourself.
+it will not take as long.
+* 1st, patch the Original Sponge Repository to get a Repository.
+* 2nd, Compile Bukkit And Neoforge.
+* 3rd, If You are Running PaperMC or High Class Fork, Use Bukkit. If You are Using Neoforge, Use NeoForge.
+* 4th, Startup your server.
+* 5th: You Can use Sponge Plugins In Your Bukkit Server!
