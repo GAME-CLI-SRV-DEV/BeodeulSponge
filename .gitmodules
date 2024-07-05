@@ -1,0 +1,3 @@
+[submodule "Sponge"]
+	path = Sponge
+	url = https://github.com/Spongepowered/Sponge.git
